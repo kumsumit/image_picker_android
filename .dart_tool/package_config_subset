@@ -6,6 +6,10 @@ image_picker_platform_interface
 3.1
 file:///home/sumit/.pub-cache/git/image_picker_platform_interface-83b9c6541f46e5260b3ef70ae41f4299e7175a6c/
 file:///home/sumit/.pub-cache/git/image_picker_platform_interface-83b9c6541f46e5260b3ef70ae41f4299e7175a6c/lib/
+pigeon
+3.1
+file:///home/sumit/.pub-cache/git/pigeon-44057d2a4cab2029c1b25b598bfe9bc439d4eeb9/
+file:///home/sumit/.pub-cache/git/pigeon-44057d2a4cab2029c1b25b598bfe9bc439d4eeb9/lib/
 plugin_platform_interface
 2.19
 file:///home/sumit/.pub-cache/git/plugin_platform_interface-1d6e1c5fae93958d50ce0595ef687d8195088d21/
@@ -120,8 +124,8 @@ file:///home/sumit/.pub-cache/hosted/pub.dev/meta-1.9.1/
 file:///home/sumit/.pub-cache/hosted/pub.dev/meta-1.9.1/lib/
 mockito
 2.19
-file:///home/sumit/.pub-cache/hosted/pub.dev/mockito-5.4.1/
-file:///home/sumit/.pub-cache/hosted/pub.dev/mockito-5.4.1/lib/
+file:///home/sumit/.pub-cache/hosted/pub.dev/mockito-5.4.2/
+file:///home/sumit/.pub-cache/hosted/pub.dev/mockito-5.4.2/lib/
 package_config
 2.12
 file:///home/sumit/.pub-cache/hosted/pub.dev/package_config-2.1.0/
@@ -130,10 +134,6 @@ path
 2.12
 file:///home/sumit/.pub-cache/hosted/pub.dev/path-1.8.3/
 file:///home/sumit/.pub-cache/hosted/pub.dev/path-1.8.3/lib/
-pigeon
-2.18
-file:///home/sumit/.pub-cache/hosted/pub.dev/pigeon-9.2.5/
-file:///home/sumit/.pub-cache/hosted/pub.dev/pigeon-9.2.5/lib/
 pub_semver
 2.17
 file:///home/sumit/.pub-cache/hosted/pub.dev/pub_semver-2.1.4/
