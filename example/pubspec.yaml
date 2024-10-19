@@ -22,7 +22,7 @@ dependencies:
     path: ../
   image_picker_platform_interface: 
     git: https://github.com/kumsumit/image_picker_platform_interface.git
-  mime: ^1.0.4
+  mime: ^2.0.0
   video_player: 
      git: https://github.com/kumsumit/video_player.git
 
