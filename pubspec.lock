@@ -161,11 +161,12 @@ packages:
   flutter_plugin_android_lifecycle:
     dependency: "direct main"
     description:
-      name: flutter_plugin_android_lifecycle
-      sha256: ee8068e0e1cd16c4a82714119918efdeed33b3ba7772c54b5d094ab53f9b7fd1
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.33"
+      path: "."
+      ref: HEAD
+      resolved-ref: b03da240ff22b2fdeb1d74fa966ab811596484f1
+      url: "https://github.com/kumsumit/flutter_plugin_android_lifecycle.git"
+    source: git
+    version: "2.0.27"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -206,10 +207,11 @@ packages:
   image_picker_platform_interface:
     dependency: "direct main"
     description:
-      name: image_picker_platform_interface
-      sha256: "567e056716333a1647c64bb6bd873cff7622233a5c3f694be28a583d4715690c"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: eb03ccc059af8c50a03b6244ead16f04232f44ea
+      url: "https://github.com/kumsumit/image_picker_platform_interface.git"
+    source: git
     version: "2.11.1"
   leak_tracker:
     dependency: transitive
@@ -302,10 +304,11 @@ packages:
   plugin_platform_interface:
     dependency: transitive
     description:
-      name: plugin_platform_interface
-      sha256: "4820fbfdb9478b1ebae27888254d445073732dae3d6ea81f0b7e06d5dedc3f02"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: f19d3faf8d449aa73be0c3c71bd7e67fc0fb28bf
+      url: "https://github.com/kumsumit/plugin_platform_interface.git"
+    source: git
     version: "2.1.8"
   pub_semver:
     dependency: transitive
@@ -425,5 +428,5 @@ packages:
     source: hosted
     version: "3.1.3"
 sdks:
-  dart: ">=3.9.0 <4.0.0"
-  flutter: ">=3.35.0"
+  dart: ">=3.10.7 <4.0.0"
+  flutter: ">=3.38.0"

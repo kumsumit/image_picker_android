@@ -123,9 +123,9 @@
     },
     {
       "name": "flutter_plugin_android_lifecycle",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.33",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/git/flutter_plugin_android_lifecycle-b03da240ff22b2fdeb1d74fa966ab811596484f1/",
       "packageUri": "lib/",
-      "languageVersion": "3.9"
+      "languageVersion": "3.8"
     },
     {
       "name": "flutter_test",
@@ -159,9 +159,9 @@
     },
     {
       "name": "image_picker_platform_interface",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/image_picker_platform_interface-2.11.1",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/git/image_picker_platform_interface-eb03ccc059af8c50a03b6244ead16f04232f44ea/",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "3.10"
     },
     {
       "name": "leak_tracker",
@@ -231,9 +231,9 @@
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/git/plugin_platform_interface-f19d3faf8d449aa73be0c3c71bd7e67fc0fb28bf/",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.8"
     },
     {
       "name": "pub_semver",
@@ -329,7 +329,7 @@
       "name": "image_picker_android",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.9"
+      "languageVersion": "3.10"
     }
   ],
   "generator": "pub",
