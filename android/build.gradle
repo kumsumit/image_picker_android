@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     namespace = "io.flutter.plugins.imagepicker"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 37
 
     defaultConfig {
         minSdkVersion 24
