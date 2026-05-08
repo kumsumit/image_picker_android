@@ -1,36 +1,21 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
+plugins {
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android") version "2.3.21"
+}
+
 group = "io.flutter.plugins.imagepicker"
 version = "1.0-SNAPSHOT"
 
-buildscript {
-    val kotlinVersion = "2.3.21"
-    repositories {
-        google()
-        mavenCentral()
-    }
-
-    dependencies {
-        classpath("com.android.tools.build:gradle:8.13.2")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
-plugins {
-    id("com.android.library")
-    id("kotlin-android")
+repositories {
+    google()
+    mavenCentral()
 }
 
 kotlin {
     compilerOptions {
-        jvmTarget = JvmTarget.fromTarget(JavaVersion.VERSION_17.toString())
+        jvmTarget.set(JvmTarget.JVM_21)
     }
 }
 
@@ -46,19 +31,13 @@ android {
     lint {
         checkAllWarnings = true
         warningsAsErrors = true
-        disable.addAll(setOf("AndroidGradlePluginVersion", "InvalidPackage", "GradleDependency", "NewerVersionAvailable"))
-    }
 
-    dependencies {
-        implementation("androidx.core:core:1.18.0")
-        implementation("androidx.annotation:annotation:1.10.0")
-        implementation("androidx.exifinterface:exifinterface:1.4.2")
-        implementation("androidx.activity:activity:1.13.0")
-
-        testImplementation("junit:junit:4.13.2")
-        testImplementation("org.mockito:mockito-core:5.23.0")
-        testImplementation("androidx.test:core:1.7.0")
-        testImplementation("org.robolectric:robolectric:4.16")
+        disable += setOf(
+            "AndroidGradlePluginVersion",
+            "InvalidPackage",
+            "GradleDependency",
+            "NewerVersionAvailable"
+        )
     }
 
     compileOptions {
@@ -70,13 +49,34 @@ android {
         unitTests {
             isIncludeAndroidResources = true
             isReturnDefaultValues = true
+
             all {
                 it.outputs.upToDateWhen { false }
+
                 it.testLogging {
-                    events("passed", "skipped", "failed", "standardOut", "standardError")
+                    events(
+                        "passed",
+                        "skipped",
+                        "failed",
+                        "standardOut",
+                        "standardError"
+                    )
+
                     showStandardStreams = true
                 }
             }
         }
     }
+}
+
+dependencies {
+    implementation("androidx.core:core:1.18.0")
+    implementation("androidx.annotation:annotation:1.10.0")
+    implementation("androidx.exifinterface:exifinterface:1.4.2")
+    implementation("androidx.activity:activity:1.13.0")
+
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.mockito:mockito-core:5.23.0")
+    testImplementation("androidx.test:core:1.7.0")
+    testImplementation("org.robolectric:robolectric:4.16")
 }
